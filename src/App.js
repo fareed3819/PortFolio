@@ -1,24 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import LandingPage from './pages/LandingPage'
+import { BrowserRouter as Router, Link, Switch, Route } from 'react-router-dom'
+import Routes from './components/molecules/Routes'
+import TextField from './components/atoms/RTextField'
+import NameField from './components/molecules/NameField'
+import EmailField from './components/molecules/EmailField'
+import TextArea from './components/organisms/ContactForm'
+import ContactForm from '../src/components/organisms/ContactForm'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <LandingPage />
     </div>
   );
 }
