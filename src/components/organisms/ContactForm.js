@@ -19,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
     },
     margin: { marginBottom: 30 },
     padding: { padding: 20 },
-    title: { textAlign: 'left', fontWeight: 900, color: '#2C3E50', marginBottom: 20 },
+    title: { textAlign: 'left', fontWeight: 900, marginBottom: 20, color: 'white', },
     center: { alignSelf: 'center', marginLeft: '35%' }
 }));
 function ContactForm() {
